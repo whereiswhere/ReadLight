@@ -3,9 +3,9 @@
 A simple EPUB reader for the [Light Phone III](https://www.thelightphone.com/).
 
 ## Some Screenshots
-<img width="300" alt="1000001261" src="https://github.com/user-attachments/assets/d16bea21-69c3-4b2a-b9df-e2acd7e9ec1f" />
-<img width="300" alt="1000001259" src="https://github.com/user-attachments/assets/de86bf8f-cb39-4e35-9b4e-5f3acc63ff64" />
-<img width="300" alt="1000001260" src="https://github.com/user-attachments/assets/4f5b20ce-ebae-4476-a823-c6b5d2999158" />
+<img width="250" alt="1000001261" src="https://github.com/user-attachments/assets/d16bea21-69c3-4b2a-b9df-e2acd7e9ec1f" />
+<img width="250" alt="1000001259" src="https://github.com/user-attachments/assets/de86bf8f-cb39-4e35-9b4e-5f3acc63ff64" />
+<img width="250" alt="1000001260" src="https://github.com/user-attachments/assets/4f5b20ce-ebae-4476-a823-c6b5d2999158" />
 
 ## Features
 
