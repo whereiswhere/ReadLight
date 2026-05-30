@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Read Light</string>
+    <string name="permission_title">Permission Required</string>
+    <string
+        name="permission_description"
+    >Files access is required to load books from your Books folder (/sdcard/Books/).</string>
+    <string
+        name="permission_brightness"
+    >Optionally, allow modifying system settings to adjust brightness with scroll wheel when not in reader view.</string>
+    <string name="grant_access">Grant Files Access</string>
+    <string name="loading_books">Loading books</string>
+    <string name="error_loading_book">Error loading book</string>
+    <string name="error_loading_chapter">Error loading chapter</string>
+</resources>

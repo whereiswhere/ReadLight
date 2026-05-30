@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.gradle/
+build/
+local.properties
+captures/
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing
+*.jks
+*.keystore

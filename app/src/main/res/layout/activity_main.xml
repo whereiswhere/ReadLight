@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/bookListContainer"
+    >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookList"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+        />
+
+        <FrameLayout
+            android:id="@+id/scrollbarArea"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+        >
+            <View
+                android:id="@+id/scrollTrack"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="4dp"
+                android:background="#FFFFFF"
+                android:visibility="gone"
+            />
+            <View
+                android:id="@+id/scrollThumb"
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:background="#FFFFFF"
+                android:visibility="gone"
+            />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/loading_books"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:visibility="gone"
+    />
+
+    <LinearLayout
+        android:id="@+id/permissionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="35dp"
+        android:visibility="visible"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/permission_title"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+        />
+
+        <TextView
+            android:id="@+id/permissionDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/permission_description"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="20dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/permission_brightness"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="60dp"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+        >
+            <TextView
+                android:id="@+id/btnGrantPermission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grant_access"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:background="@null"
+            />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
