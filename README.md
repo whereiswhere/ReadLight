@@ -32,6 +32,9 @@ A simple EPUB reader for the [Light Phone III](https://www.thelightphone.com/).
 2. Grant file access permission on first launch
 3. Optionally grant "Modify system settings" permission for brightness control
 
+## Download
+Download and install the .apk files in [Release](https://github.com/whereiswhere/ReadLight/releases)page.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE) — you're free to use, modify, and distribute it.
